@@ -4,3 +4,16 @@ body {
   background: #f4f4f4;
   font-family: sans-serif;
 }
+.hero-section {
+  background-image: url('hero background.jpg'); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust height as needed */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
