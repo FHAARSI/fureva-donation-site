@@ -5,11 +5,67 @@
   <link rel="stylesheet" href="style.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="animal rescue" content="Fureva Hope - Animal Rescue Nonprofit">
+  <meta name="discription" content="Fureva Hope - Animal Rescue Nonprofit">
   <meta name="keywords" content="Fureva, animal rescue, donate, nonprofit, shelter">
   <meta name="author" content="Fhaarsi">
-  <link rel="stylesheet" href="style.css" />
   <title>Fureva Hope</title>
+   <link rel="stylesheet" href="style.css" />
+  .hero {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .overlay h1 {
+      font-size: 3rem;
+      margin: 0.5em 0;
+    }
+
+    .overlay p {
+      font-size: 1.2rem;
+      margin: 0.5em 0;
+    }
+
+    .overlay a.donate-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #f76c6c;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .overlay a.donate-button:hover {
+      background-color: #e45757;
+    }
+  </style>
 </head>
 <body> 
   <!-- Hero Section Start -->
