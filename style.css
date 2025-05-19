@@ -17,7 +17,96 @@ body {
   text-align: center;
   padding: 20px;
 }
-body {
+body {body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* --- Navbar Styles --- */
+.navbar {
+  background-color: #00695c; /* Deep green */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #80cbc4; /* Light green */
+}
+
+/* --- Existing Styles --- */
+header {
+  background: #004d40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Padding top to avoid hiding content behind fixed navbar */
+.hero-section, main {
+  padding-top: 100px;
+}
+
+.hero-section {
+  background-image: url('images/banner.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
