@@ -5,11 +5,13 @@
       overflow: hidden;
     }
 
-    .hero img {hero-background.jpg
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
+    .hero {
+  background-image: url('hero-background.jpg'); /* Adjust the path as needed */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* or any height you want */
+}
     }
 
     .overlay {
