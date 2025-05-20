@@ -26,7 +26,14 @@ body {
   background-color: #f9f9f9;
   color: #333;
 }
-
+ <style>
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+    }
 /* --- Navbar Styles --- */
 .navbar {
   overflow: hidden;
